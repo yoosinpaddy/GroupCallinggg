@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 .setWelcomePageEnabled(false)
                 .build();
         JitsiMeet.setDefaultConferenceOptions(defaultOptions);
+
     }
 
     public void onButtonClick(View v) {
